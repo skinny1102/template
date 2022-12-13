@@ -22,10 +22,3 @@ $('.slider-index-tab').slick({
   prevArrow: false,
   nextArrow: false
 });
-$('.slider-index-tab-one').slick({
-  infinite: true,
-  slidesToShow: 5,
-  slidesToScroll: 1,
-  prevArrow: false,
-  nextArrow: false
-});

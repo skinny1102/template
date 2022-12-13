@@ -31,27 +31,27 @@
 //   $(`#${data.ref}`).fadeIn();
 // });
 
-const bntAll =  document.getElementById('all');
-const btnProgram = document.getElementById('program');
-const btnLangue = document.getElementById('language');
+// const bntAll =  document.getElementById('all');
+// const btnProgram = document.getElementById('program');
+// const btnLangue = document.getElementById('language');
 
-const divAll =  document.getElementById('tab-all');
-const divProgram = document.getElementById('tab-program');
-const divLangue= document.getElementById('tab-language');
+// const divAll =  document.getElementById('tab-all');
+// const divProgram = document.getElementById('tab-program');
+// const divLangue= document.getElementById('tab-language');
 
-bntAll.onclick = function(){
-  divProgram.style.display='none'
-  divLangue.style.display='none'
-  divAll.style.display="block"
-  // lineTabs.style.left='0px'
-}
-btnProgram.onclick = function(){
-  console.log('hihi');
-  divLangue.style.display = 'none'
-  divAll.style.display='none'
-  divProgram.style.display='block'
-  // lineTabs.style.left='455px'
-}
+// bntAll.onclick = function(){
+//   divProgram.style.display='none'
+//   divLangue.style.display='none'
+//   divAll.style.display="block"
+//   // lineTabs.style.left='0px'
+// }
+// btnProgram.onclick = function(){
+//   console.log('hihi');
+//   divLangue.style.display = 'none'
+//   divAll.style.display='none'
+//   divProgram.style.display='block'
+//   // lineTabs.style.left='455px'
+// }
 
 
 // bntAll.onclick = function(){
