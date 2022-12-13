@@ -1,0 +1,108 @@
+@media (max-width:1324px) {
+    .header {
+        .menu {
+            display: block;
+        }
+        .menu:hover {
+            background-color: rgb(97, 95, 95);
+            transition: all 0.3s;
+        }
+        .header-container {
+            justify-content: space-between;
+            .login  ,
+            .register ,
+            .square ,
+            .category , 
+            .center{
+                display: none;
+            }
+            .brand {
+                flex:1;
+                justify-content: center;
+            }
+            .search-box {
+                background-color: transparent;
+                order: 4;
+                input {
+                    display: none;
+                }
+            }
+
+            .activated {
+                display: none;
+            }
+
+        }
+    }
+    .session{
+        margin-top: 50px;
+    }
+    footer {
+          .about-us {
+            img {
+                display: none;
+            }
+          }
+          .society { 
+              .app {
+                 width: 340px !important;
+              }
+
+          }
+      } 
+      .society{
+        padding: 0px 10px;
+      }
+}
+
+@media (max-width:1000px) {
+    .main {
+        .banner {
+            max-height:300px;
+            height:300px;
+        }
+    }
+
+}
+
+@media (max-width:800px) {
+    .session{
+        .title {
+         font-size: 2.5rem;
+        }
+
+        .description {
+            font-size: 1.3rem;
+        }
+    } 
+    .main {
+        .banner {
+            max-height:250px;
+            height:250px;
+        }
+    }
+
+}
+
+@media (max-width:600px) {
+    .main {
+        .banner {
+            max-height:200px;
+            height:200px;
+        }
+    }
+}
+
+@media (max-width:400px) {
+    .session{
+        // .title {
+        //  font-size: 2.5rem;
+        // }
+    } 
+    .main {
+        .banner {
+            max-height:150px;
+            height:150px;
+        }
+    }
+}
