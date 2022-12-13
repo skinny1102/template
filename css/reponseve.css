@@ -1,0 +1,77 @@
+@media (max-width: 1324px) {
+  .header .menu {
+    display: block;
+  }
+  .header .menu:hover {
+    background-color: rgb(97, 95, 95);
+    transition: all 0.3s;
+  }
+  .header .header-container {
+    justify-content: space-between;
+  }
+  .header .header-container .login,
+  .header .header-container .register,
+  .header .header-container .square,
+  .header .header-container .category,
+  .header .header-container .center {
+    display: none;
+  }
+  .header .header-container .brand {
+    flex: 1;
+    justify-content: center;
+  }
+  .header .header-container .search-box {
+    background-color: transparent;
+    order: 4;
+  }
+  .header .header-container .search-box input {
+    display: none;
+  }
+  .header .header-container .activated {
+    display: none;
+  }
+  .session {
+    margin-top: 50px;
+  }
+  footer .about-us img {
+    display: none;
+  }
+  footer .society .app {
+    width: 340px !important;
+  }
+  .society {
+    padding: 0px 10px;
+  }
+}
+@media (max-width: 1000px) {
+  .main .banner {
+    max-height: 300px;
+    height: 300px;
+  }
+}
+@media (max-width: 800px) {
+  .session .title {
+    font-size: 2.5rem;
+  }
+  .session .description {
+    font-size: 1.3rem;
+  }
+  .main .banner {
+    max-height: 250px;
+    height: 250px;
+  }
+}
+@media (max-width: 600px) {
+  .main .banner {
+    max-height: 200px;
+    height: 200px;
+  }
+}
+@media (max-width: 400px) {
+  .main .banner {
+    max-height: 150px;
+    height: 150px;
+  }
+}
+
+/*# sourceMappingURL=reponseve.css.map */

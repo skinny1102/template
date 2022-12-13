@@ -1,0 +1,199 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+:root {
+  --main-width-container: 1715px;
+}
+
+html {
+  font-size: 62.5%;
+  /* changes a default 16px font size to 10px */
+}
+
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("/font/SF-Pro-Display-Regular.otf");
+}
+body {
+  font-family: "SF Pro Display";
+  background-color: #ebe8e8;
+  height: 100%;
+}
+
+input:focus {
+  outline: none;
+}
+
+.main {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: var(--main-width-container);
+  padding-top: 75px;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.8470588235);
+  box-shadow: 5px 5px 5px 5px rgba(31, 31, 31, 0.2);
+}
+.main .banner {
+  max-width: 100%;
+  height: 408px;
+  max-height: 408px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.main .title {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: left;
+  letter-spacing: 0px;
+  color: #000;
+}
+.main .description {
+  font-size: 16px;
+  text-align: left;
+  color: #333;
+  line-height: 24px;
+  letter-spacing: 0px;
+  padding-right: 10px;
+}
+.main .session {
+  padding-top: 10px;
+  padding-left: 10px;
+  background: #fff;
+  padding-bottom: 20px;
+}
+.main .introduce {
+  margin-top: 30px;
+  padding-left: 10px;
+  background: #fff;
+  height: 518px;
+}
+.main .introduce .container {
+  overflow-x: hidden;
+}
+.main .introduce .container .row {
+  flex-wrap: nowrap;
+  width: 1705px;
+}
+.main .container-card-index {
+  margin: 0px 15px;
+  padding-top: 10px;
+}
+.main .card {
+  width: 284px;
+  height: 352px;
+}
+.main .card.ct {
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.05);
+  margin-top: 20px;
+}
+.main .card.ct .card-img-top {
+  background-position: center center !important;
+  background-size: cover !important;
+}
+.main .card.ct .img-star {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  top: -2px;
+  left: -5px;
+}
+.main .card.ct .highting {
+  position: absolute;
+  width: 90%;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  top: 66%;
+  margin-left: 20px;
+  height: 24px;
+  color: #000;
+  border-radius: 20px;
+}
+.main .card.ct .highting img {
+  width: 14px;
+  height: 14px;
+  margin: 0 5px;
+}
+.main .card.ct .highting p {
+  width: 100%;
+  font-size: 1.3rem;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.main .card.ct .highting:nth-of-type(2) {
+  top: 83%;
+}
+.main .card.ct .card-name {
+  color: #FCCF00;
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+.main .card.ct .card-title {
+  color: #082346;
+  font-size: 1.65rem;
+  line-height: 22px;
+}
+.main .card.ct .card-text {
+  line-height: 18px;
+  height: 37px;
+}
+.main .card.ct .card-author {
+  margin-top: 5px;
+  color: #000;
+  font-size: 1.2rem;
+}
+.main .card.ct .price-container {
+  display: flex;
+  margin-top: 7px;
+}
+.main .card.ct .price-container .price {
+  color: red;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-right: 10px;
+}
+.main .card.ct .price-container .price::after {
+  content: "₫";
+  font-size: 2rem;
+}
+.main .card.ct .price-container .price-fake {
+  font-size: 1.5rem;
+  color: #757575;
+  text-decoration: line-through;
+}
+.main .container-new-cource, .main .container-best-sold, .main .container-english {
+  overflow-x: hidden;
+  height: 390px;
+}
+.main .row-new-cource, .main .row-best-sold, .main .row-english {
+  width: 1705px;
+}
+.main .cource-highting .tab-content {
+  margin-top: 20px;
+}
+.main .cource-highting .tab-content .highting:nth-of-type(1) {
+  visibility: hidden;
+}
+.main .cource-highting .tab-content .highting:nth-of-type(2) {
+  top: 80% !important;
+  background-color: #06c167;
+  color: #fff;
+  margin-left: 10px;
+}
+
+.slider-index-tab-one {
+  display: flex;
+}
+
+/*# sourceMappingURL=main.css.map */
