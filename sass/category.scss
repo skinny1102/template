@@ -2,6 +2,7 @@
 .container-main {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   height: 100%;
 }
 
@@ -15,7 +16,7 @@
       rgba(0, 0, 0, 0.75) 0%,
       rgba(0, 0, 0, 0) 100%
     ),
-    url("../images/back-ground-design.png");
+    ;
   a {
     top: 10%;
     height: 100%;

@@ -158,7 +158,6 @@ body {
   display: flex;
   margin-top: 30px;
   margin-right: 16px;
-  margin-bottom: 20px;
   flex-direction: row;
   justify-content: space-between;
 }
@@ -167,6 +166,10 @@ body {
   font-size: 34px;
   font-weight: bold;
   line-height: 44px;
+}
+
+.list-page-filler {
+  margin-top: 5px;
 }
 
 .user-tab-header {

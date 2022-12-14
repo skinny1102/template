@@ -338,4 +338,53 @@ body {
   line-height: 24px;
 }
 
+@media (max-width: 1324px) {
+  main {
+    overflow-x: hidden;
+  }
+  .main .banner {
+    max-height: 90%;
+    height: 90%;
+    overflow-y: hidden;
+  }
+  .banner-sub-content {
+    grid-template-columns: 100%;
+    overflow-x: hidden;
+  }
+  .banner-sub-content .nav-source {
+    padding-top: 15px;
+    margin: 0px 20px;
+  }
+  .banner-sub-content .title-detail {
+    margin: 0px 20px;
+  }
+  .banner-sub-content .content-couser-detail-title {
+    margin: 0px 20px;
+  }
+  .card-course {
+    position: relative;
+    width: 90%;
+    height: 729px;
+  }
+  .card-course .content-card {
+    height: auto;
+  }
+  .container-content-course {
+    grid-template-columns: 100%;
+    padding-right: 10px;
+  }
+  .box-teacher {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .box-teacher .img-teacher {
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 200px;
+  }
+}
+
 /*# sourceMappingURL=detail.css.map */

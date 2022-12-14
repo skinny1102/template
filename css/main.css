@@ -65,7 +65,7 @@ input:focus {
 }
 .main .session {
   padding-top: 10px;
-  padding-left: 10px;
+  padding-left: 20px;
   background: #fff;
   padding-bottom: 20px;
 }
@@ -85,13 +85,14 @@ input:focus {
 .main .container-card-index {
   margin: 0px 15px;
   padding-top: 10px;
+  padding-bottom: 10px;
 }
 .main .card {
   width: 284px;
   height: 352px;
 }
 .main .card.ct {
-  border-radius: 20px;
+  border-radius: 10px 10px 0px 0px;
   overflow: hidden;
   box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.05);
   margin-top: 20px;
@@ -172,15 +173,19 @@ input:focus {
   color: #757575;
   text-decoration: line-through;
 }
-.main .container-new-cource, .main .container-best-sold, .main .container-english {
+.main .container-new-cource,
+.main .container-best-sold,
+.main .container-english {
   overflow-x: hidden;
-  height: 390px;
 }
-.main .row-new-cource, .main .row-best-sold, .main .row-english {
+.main .row-new-cource,
+.main .row-best-sold,
+.main .row-english {
   width: 1705px;
 }
 .main .cource-highting .tab-content {
   margin-top: 20px;
+  padding-left: 10px;
 }
 .main .cource-highting .tab-content .highting:nth-of-type(1) {
   visibility: hidden;
@@ -192,8 +197,68 @@ input:focus {
   margin-left: 10px;
 }
 
-.slider-index-tab-one {
+.box-felling {
+  display: grid;
+}
+.box-felling .title-box-felling p {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0px;
+  color: #000;
+}
+
+.card-box-felling {
   display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  padding-bottom: 100px;
+  overflow-x: hidden;
+}
+
+.owl-item {
+  width: 306.667px;
+  margin-right: 10px;
+}
+
+.item-feedback {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.quote-icon {
+  text-align: center;
+  margin-bottom: 25px;
+  display: inline-block;
+}
+.quote-icon svg {
+  width: 25px;
+}
+
+.hachium {
+  text-align: center;
+}
+
+.feedback-ava {
+  border: 2px solid #ebb129;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.description-fell {
+  font-size: 14px;
+  text-align: center;
+  color: #69727b;
+  line-height: 1.5;
+  margin-bottom: 25px;
+}
+
+.name_learner {
+  font-size: 14px;
 }
 
 /*# sourceMappingURL=main.css.map */

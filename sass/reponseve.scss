@@ -1,4 +1,7 @@
 @media (max-width:1324px) {
+    .tab-container{
+        overflow-x: hidden;
+    }
     .header {
         .menu {
             display: block;
@@ -56,6 +59,9 @@
 }
 
 @media (max-width:1000px) {
+    .tab-container{
+        overflow-x: hidden;
+    }
     .main {
         .banner {
             max-height:300px;
@@ -66,15 +72,18 @@
 }
 
 @media (max-width:800px) {
-    .session{
-        .title {
-         font-size: 2.5rem;
-        }
+    .tab-container{
+        overflow-x: hidden;
+    }
+    // .session{
+    //     .title {
+    //      font-size: 2.5rem;
+    //     }
 
-        .description {
-            font-size: 1.3rem;
-        }
-    } 
+    //     .description {
+    //         font-size: 1.3rem;
+    //     }
+    // } 
     .main {
         .banner {
             max-height:250px;
@@ -85,6 +94,9 @@
 }
 
 @media (max-width:600px) {
+    .tab-container{
+        overflow-x: hidden;
+    }
     .main {
         .banner {
             max-height:200px;

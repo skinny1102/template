@@ -65,7 +65,7 @@ input:focus {
 }
 .main .session {
   padding-top: 10px;
-  padding-left: 10px;
+  padding-left: 20px;
   background: #fff;
   padding-bottom: 20px;
 }
@@ -85,13 +85,14 @@ input:focus {
 .main .container-card-index {
   margin: 0px 15px;
   padding-top: 10px;
+  padding-bottom: 10px;
 }
 .main .card {
   width: 284px;
   height: 352px;
 }
 .main .card.ct {
-  border-radius: 20px;
+  border-radius: 10px 10px 0px 0px;
   overflow: hidden;
   box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.05);
   margin-top: 20px;
@@ -172,15 +173,19 @@ input:focus {
   color: #757575;
   text-decoration: line-through;
 }
-.main .container-new-cource, .main .container-best-sold, .main .container-english {
+.main .container-new-cource,
+.main .container-best-sold,
+.main .container-english {
   overflow-x: hidden;
-  height: 390px;
 }
-.main .row-new-cource, .main .row-best-sold, .main .row-english {
+.main .row-new-cource,
+.main .row-best-sold,
+.main .row-english {
   width: 1705px;
 }
 .main .cource-highting .tab-content {
   margin-top: 20px;
+  padding-left: 10px;
 }
 .main .cource-highting .tab-content .highting:nth-of-type(1) {
   visibility: hidden;
@@ -192,8 +197,68 @@ input:focus {
   margin-left: 10px;
 }
 
-.slider-index-tab-one {
+.box-felling {
+  display: grid;
+}
+.box-felling .title-box-felling p {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0px;
+  color: #000;
+}
+
+.card-box-felling {
   display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  padding-bottom: 100px;
+  overflow-x: hidden;
+}
+
+.owl-item {
+  width: 306.667px;
+  margin-right: 10px;
+}
+
+.item-feedback {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.quote-icon {
+  text-align: center;
+  margin-bottom: 25px;
+  display: inline-block;
+}
+.quote-icon svg {
+  width: 25px;
+}
+
+.hachium {
+  text-align: center;
+}
+
+.feedback-ava {
+  border: 2px solid #ebb129;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.description-fell {
+  font-size: 14px;
+  text-align: center;
+  color: #69727b;
+  line-height: 1.5;
+  margin-bottom: 25px;
+}
+
+.name_learner {
+  font-size: 14px;
 }
 
 .header {
@@ -221,6 +286,8 @@ input:focus {
   align-items: center;
   justify-content: space-around;
   height: 100%;
+  padding-left: 10px;
+  padding-bottom: 10px;
 }
 .header .header-container .center {
   flex: 1;
@@ -230,13 +297,12 @@ input:focus {
   width: 141px;
   height: 31px;
   display: flex;
-  margin-right: 20px;
 }
 .header .header-container .brand .brand-text {
   fill: #fff;
 }
 .header .header-container .category {
-  width: 137px;
+  width: 120px;
   height: 32px;
   display: flex;
   justify-content: center;
@@ -251,6 +317,7 @@ input:focus {
   margin-right: 5px;
 }
 .header .header-container .search-box {
+  margin-left: 10px;
   max-width: 500px;
   height: 44px;
   background-color: rgba(255, 255, 255, 0.1);
@@ -275,12 +342,24 @@ input:focus {
   width: 142px;
   border-radius: 8px;
   border-color: rgb(251, 255, 40);
-  color: #FCCF00;
+  color: #fccf00;
   margin-left: 10px;
   font-size: 1.3rem;
   height: 32px;
 }
 .header .header-container a {
+  color: #fff;
+  font-size: 1.4rem;
+}
+.header .header-container .my-course {
+  display: flex;
+  padding-right: 15px;
+}
+.header .header-container .my-course svg {
+  height: 17px;
+  width: 20px;
+}
+.header .header-container .my-course p {
   color: #fff;
   font-size: 1.4rem;
 }
@@ -332,7 +411,6 @@ input:focus {
   width: 141px;
   height: 31px;
   display: flex;
-  margin-right: 20px;
 }
 .modal .heading .brand .brand-text {
   fill: #fff;
@@ -371,7 +449,8 @@ input:focus {
 .modal .body .app .item {
   padding-left: 30px;
 }
-.modal .body .app .emFtAppStore, .modal .body .app .emFtPlayStore {
+.modal .body .app .emFtAppStore,
+.modal .body .app .emFtPlayStore {
   width: 150px;
   height: 46px;
   display: inline-flex;
@@ -383,10 +462,12 @@ input:focus {
   background-color: #000;
   border-radius: 5px;
 }
-.modal .body .app .emFtAppStore .name, .modal .body .app .emFtPlayStore .name {
+.modal .body .app .emFtAppStore .name,
+.modal .body .app .emFtPlayStore .name {
   font-size: 1rem;
 }
-.modal .body .app .emFtAppStore .description, .modal .body .app .emFtPlayStore .description {
+.modal .body .app .emFtAppStore .description,
+.modal .body .app .emFtPlayStore .description {
   font-weight: bold;
   font-size: 1.5rem;
 }
@@ -394,6 +475,54 @@ input:focus {
   display: inline-block;
   width: 30px;
   height: 30px;
+}
+
+.avatar-index {
+  margin-left: 10px;
+  margin-right: 5px;
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+}
+
+.avatar-dropdown {
+  background-color: white;
+  position: absolute;
+  margin-top: 2px;
+  border-radius: 5px;
+  transition: box-shadow 300ms;
+  transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  width: 190px;
+  right: 120px;
+  display: none;
+  flex-direction: column;
+  box-shadow: 5px 5px 5px 5px rgba(31, 31, 31, 0.2);
+}
+.avatar-dropdown a {
+  font-size: 16px !important;
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #333 !important;
+}
+.avatar-dropdown .logout-index {
+  border-top: 1px solid #393f4d;
+}
+
+.user-profile-index:hover {
+  color: #FCCF00 !important;
+}
+
+.logout-index:hover {
+  color: red !important;
+}
+
+.mr-4 {
+  margin-right: 4px;
+}
+
+.display-flex {
+  display: flex !important;
 }
 
 .show {
