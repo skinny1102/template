@@ -136,7 +136,7 @@ input:focus {
   top: 83%;
 }
 .main .card.ct .card-name {
-  color: #FCCF00;
+  color: #fccf00;
   font-size: 1.5rem;
   margin-bottom: 5px;
 }
@@ -261,6 +261,11 @@ input:focus {
   font-size: 14px;
 }
 
+@media (max-width: 1324px) {
+  .card-box-felling {
+    display: block;
+  }
+}
 .btn {
   /* min-width: 100px; */
   background-color: var(--color-yellow);

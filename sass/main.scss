@@ -16,12 +16,12 @@ html {
 }
 
 @font-face {
-  font-family: 'SF Pro Display';
-  src: url('/font/SF-Pro-Display-Regular.otf');
+  font-family: "SF Pro Display";
+  src: url("/font/SF-Pro-Display-Regular.otf");
 }
 
 body {
-  font-family: 'SF Pro Display';
+  font-family: "SF Pro Display";
   background-color: #ebe8e8;
   height: 100%;
 }
@@ -70,7 +70,7 @@ input:focus {
     padding-top: 10px;
     padding-left: 20px;
     background: #fff;
-    padding-bottom: 20px
+    padding-bottom: 20px;
   }
 
   .introduce {
@@ -92,7 +92,7 @@ input:focus {
   .container-card-index {
     margin: 0px 15px;
     padding-top: 10px;
-    padding-bottom: 10px
+    padding-bottom: 10px;
   }
 
   .card {
@@ -152,7 +152,7 @@ input:focus {
     }
 
     .card-name {
-      color: #FCCF00;
+      color: #fccf00;
       font-size: 1.5rem;
       margin-bottom: 5px;
     }
@@ -165,7 +165,7 @@ input:focus {
 
     .card-text {
       line-height: 18px;
-      height: 37px
+      height: 37px;
     }
 
     .card-author {
@@ -210,7 +210,6 @@ input:focus {
     width: 1705px;
   }
 
-
   .cource-highting {
     .tab-content {
       margin-top: 20px;
@@ -244,47 +243,52 @@ input:focus {
     }
   }
 }
-.card-box-felling{
+.card-box-felling {
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
   padding-bottom: 100px;
   overflow-x: hidden;
 }
-.owl-item{
+.owl-item {
   width: 306.667px;
   margin-right: 10px;
 }
-.item-feedback{
+.item-feedback {
   padding: 15px;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.quote-icon{
+.quote-icon {
   text-align: center;
   margin-bottom: 25px;
   display: inline-block;
- svg{
-  width: 25px;
- }
+  svg {
+    width: 25px;
+  }
 }
-.hachium{
+.hachium {
   text-align: center;
 }
-.feedback-ava{
-border: 2px solid #ebb129;
-width: 50px;
-height: 50px;
-border-radius: 50%;
+.feedback-ava {
+  border: 2px solid #ebb129;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
 }
-.description-fell{
+.description-fell {
   font-size: 14px;
   text-align: center;
   color: #69727b;
   line-height: 1.5;
   margin-bottom: 25px;
 }
-.name_learner{
+.name_learner {
   font-size: 14px;
+}
+@media (max-width: 1324px) {
+  .card-box-felling {
+    display: block;
+  }
 }

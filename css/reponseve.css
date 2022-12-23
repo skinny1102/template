@@ -36,6 +36,9 @@
   .session {
     margin-top: 50px;
   }
+  .box-avatar {
+    display: none;
+  }
   footer .about-us img {
     display: none;
   }
@@ -44,6 +47,9 @@
   }
   .society {
     padding: 0px 10px;
+  }
+  .card-box-felling {
+    flex-direction: column;
   }
 }
 @media (max-width: 1000px) {
