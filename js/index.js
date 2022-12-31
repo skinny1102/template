@@ -26,13 +26,3 @@ $('.slider-index-tab').slick({
   prevArrow: $('.left'),
   nextArrow:$('.right'),
 });
-
-// if (window.matchMedia('screen and (max-width: 1324px)').matches){
-//   $('.row-new-cource').slick({
-//     infinite: true,
-//     slidesToShow: 4,
-//     slidesToScroll: 1,
-//     prevArrow: false,
-//     nextArrow: false
-//   });
-// }
