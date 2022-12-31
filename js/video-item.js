@@ -36,11 +36,19 @@ for (let i = 0; i < angleup_btn.length; i++) {
 }
 
 var player = videojs('my-player');
-         
+player.addClass('vjs-matrix');
          // Adding button to the control bar
          var myButton = player.controlBar.addChild('button', {}, 0);
          
          // Create our button's DOM Component
 var myButtonDom = myButton.el();
     
-myButtonDom.innerHTML = '<span class="vjs-icon-forward-10"></span>';
+myButtonDom.innerHTML = '<span class="vjs-icon-forward"></span>';
+
+forward=()=>{
+  skip(15);
+}
+
+backward=()=>{
+   skip(-15);
+}

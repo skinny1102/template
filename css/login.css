@@ -1,0 +1,385 @@
+body {
+  font-family: "SF Pro Display";
+  background-color: #ebe8e8 !important;
+}
+
+.container-main {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  margin-bottom: 3px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-source {
+  color: #393f4d;
+  font-size: 13px;
+  padding-top: 10px;
+}
+.nav-source ol {
+  display: flex;
+  list-style: none;
+}
+.nav-source ol a {
+  text-decoration: none;
+  color: #082346;
+}
+.nav-source ol .icon-source {
+  margin-left: 10px;
+  width: 20px;
+}
+.nav-source ol span {
+  color: #082346;
+}
+
+.nav-title {
+  height: 44px;
+  display: flex;
+  margin-top: 30px;
+  margin-right: 16px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.nav-title p {
+  color: #1d1e22;
+  font-size: 34px;
+  font-weight: bold;
+  line-height: 44px;
+}
+
+.box-container-register {
+  display: flex;
+  justify-content: center;
+}
+
+.jss633 {
+  color: black;
+  background-color: white !important;
+}
+
+.jss799 {
+  display: flex;
+  flex-direction: column;
+}
+
+.jss800 {
+  align-self: center;
+  margin-top: 24px;
+  margin-bottom: 22px;
+}
+
+.jss804 {
+  margin-bottom: 8px;
+}
+
+.jss805 {
+  border-color: #3A5C98;
+  background-color: #3A5C98;
+}
+
+.jss807 {
+  gap: 12px;
+  width: 373px;
+  border: 1px;
+  cursor: pointer;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  border-color: #000000;
+  border-style: solid;
+  border-radius: 100px;
+  justify-content: center;
+  background-color: #ffffff;
+}
+
+.jss808 {
+  color: #000000;
+  font-size: 17px;
+  text-align: center;
+  line-height: 22px;
+  letter-spacing: -0.408px;
+}
+
+.jss809 {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+.jss810 {
+  color: black;
+  font-size: 15px;
+  margin-top: 28px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 6px;
+}
+
+.jss811 {
+  color: black;
+  width: 100%;
+  border: 1px solid #E0E0E0 !important;
+  height: 60px !important;
+  font-size: 17px !important;
+  font-family: SF Pro Display;
+  font-weight: 400 !important;
+  line-height: 20px !important;
+  border-radius: 8px !important;
+  background-color: white !important;
+}
+
+.jss812 {
+  padding-left: 13px;
+}
+
+.jss817 {
+  color: white;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 20px;
+  text-transform: none;
+}
+
+.jss818 {
+  display: none;
+}
+
+.jss822 {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.jss823 {
+  color: #00459F;
+  font-size: 13px;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.078px;
+}
+
+.jss824 {
+  color: #393f4d;
+  cursor: pointer;
+  text-align: center;
+  margin-left: 10px;
+}
+
+.jss825 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.jss826 {
+  color: black;
+  margin: 0px 5px 0px 6px;
+  font-size: 15px;
+  font-style: normal;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.jss827 {
+  flex-grow: 1;
+  background-color: #393f4d;
+}
+
+.MuiButton-text {
+  padding: 6px 8px;
+}
+
+.MuiInput-root {
+  position: relative;
+}
+
+.MuiButton-root {
+  color: #393f4d;
+  padding: 6px 16px;
+  font-size: 0.875rem;
+  min-width: 64px;
+  box-sizing: border-box;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  font-family: SF Pro Display;
+  font-weight: 500;
+  line-height: 1.75;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+
+.MuiButton-label {
+  width: 100%;
+  display: inherit;
+  align-items: inherit;
+  justify-content: inherit;
+}
+
+.MuiTouchRipple-root {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  overflow: hidden;
+  position: absolute;
+  border-radius: inherit;
+  pointer-events: none;
+}
+
+.MuiButtonBase-root {
+  color: inherit;
+  border: 0;
+  cursor: pointer;
+  margin: 0;
+  display: inline-flex;
+  outline: 0;
+  padding: 0;
+  position: relative;
+  align-items: center;
+  user-select: none;
+  border-radius: 0;
+  vertical-align: middle;
+  -moz-appearance: none;
+  justify-content: center;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.MuiInputBase-root {
+  color: #393f4d;
+  cursor: text;
+  display: inline-flex;
+  position: relative;
+  font-size: 1rem;
+  box-sizing: border-box;
+  align-items: center;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 1.1876em;
+}
+
+.MuiInputBase-input {
+  font: inherit;
+  color: currentColor;
+  width: 100%;
+  border: 0;
+  height: 1.1876em;
+  margin: 0;
+  display: block;
+  padding: 6px 0 7px;
+  min-width: 0;
+  background: none;
+  box-sizing: content-box;
+  animation-name: mui-auto-fill-cancel;
+  letter-spacing: inherit;
+  animation-duration: 10ms;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.MuiFormHelperText-root {
+  color: #393f4d;
+  margin: 0;
+  font-size: 0.75rem;
+  margin-top: 3px;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 1.66;
+}
+
+.MuiTypography-root {
+  margin: 0;
+}
+
+.MuiTypography-body1 {
+  font-size: 15px;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.jss815 {
+  flex: 1;
+  color: white;
+  height: 60px;
+  margin-top: 32px;
+  min-height: 60px;
+  border-radius: 8px;
+  background-color: #C89F65 !important;
+}
+
+.withd-fb {
+  font-size: 15px;
+}
+
+.text-color-white {
+  color: #ffffff;
+}
+
+.blue-face {
+  background-color: #3A5C98;
+}
+
+.input-register-t {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 1324px) {
+  .user-conent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .img-user-container {
+    margin-left: 25px;
+  }
+  .nav-title {
+    display: none;
+  }
+  .user-tab-header {
+    margin-top: 25px;
+  }
+  .user-profile {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+  .user-profile label {
+    font-size: 12px;
+  }
+  .MuiInputBase-input {
+    font: inherit;
+    color: currentColor;
+    width: 80%;
+    border: 0;
+    height: 1.1876em;
+    margin: 0;
+    display: block;
+    padding: 6px 0 7px;
+    min-width: 0;
+    background: none;
+    box-sizing: content-box;
+    animation-name: mui-auto-fill-cancel;
+    letter-spacing: inherit;
+    animation-duration: 10ms;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .input-register-t {
+    width: 95%;
+  }
+  .jss809 {
+    width: 100%;
+  }
+  .js811 {
+    width: 80%;
+    margin-left: 10px !important;
+  }
+}
+
+/*# sourceMappingURL=login.css.map */
